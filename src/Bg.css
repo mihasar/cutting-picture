@@ -1,0 +1,30 @@
+.Bg {
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+    background-color: darkblue;
+}
+
+.Header_Text {
+    color: whitesmoke;
+    color: lightseagreen;
+    float: right;
+    width: 100%;
+    margin-right: 15px;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.Header_btn {
+    float: left;
+    background-color: lightslategray;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    margin-left: 10px;
+    padding: 5px;
+    background-image: url('');
+}
