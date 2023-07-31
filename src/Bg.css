@@ -5,7 +5,7 @@
     margin-top: 150px;
     border-radius: 10px;
     box-shadow: 1px 1px 10px black;
-    background-color: darkblue;
+    background-color: #475366;
 }
 
 .Header_Text {
@@ -20,11 +20,13 @@
 
 .Header_btn {
     float: left;
-    background-color: lightslategray;
+    background-color: #475366;
     color: white;
     border-radius: 4px;
     border: none;
     margin-left: 10px;
+    background-repeat: no-repeat;
     padding: 5px;
+    font-family: aduma;
     background-image: url('');
 }
