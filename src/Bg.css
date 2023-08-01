@@ -52,6 +52,9 @@
     width: 67%;
     float: left;
     height: 100%;
+    color: white;
+    /* margin-left: 1%; */
+    border-radius: 8px;
 }
 
 .Right_Div {
@@ -96,7 +99,7 @@
     margin-top: 14px;
 }
 
-.right_div_top_sub_subtext {
+.Right_div_top_sub_subtext {
     color: white;
     font-size: 12px;
     text-align: right;
@@ -105,4 +108,84 @@
     background-image: url('');
     background-repeat: no-repeat;
     background-position: 215px 0px;
+}
+
+.Right_div_top {
+    border-bottom: 1ox solid #9E9E9E;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 26px;
+}
+
+.Right_div_bottom_text {
+    color: white;
+    text-align: right;
+    font-size: 25px;
+    margin-left: 15px;
+    padding-top: 22px;
+    padding-right: 50px;
+    background-image: url('');
+}
+
+.Right_div_bottom_subtext {
+    color: white;
+    text-align: right;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.Right_div_bottom_btn {
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #03A9F4;
+    border: 1px solid #03A9F4;
+    margin-top: 14px;
+}
+
+.Right_div_bottom_sub_subtext {
+    color: white;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 30px;
+    margin-top: 17px;
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: 215px 0px;
+}
+
+.Main_div_tabs_Header {
+    color: white;
+    background-color: #2F3A4B;
+    height: 45px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.Main_div_tabs_Header span {
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+    text-align: right;
+    float: right;
+    height: 27px;
+    width: 52px;
+    padding-right: 20px;
+    margin-top: 15px;
+}
+
+.No_bg {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: 38px 3px;
+    border-bottom: 3px solid #9c27B0;
+}
+
+.Original {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: 28px 3px;
 }
