@@ -1,0 +1,10 @@
+.No_bg_tab_text {
+    color: #03a9f4;
+    font-size: 11px;
+    float: right;
+    margin: 10px;
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: 207px;
+    padding-right: 22px;
+}

@@ -1,16 +1,22 @@
 import './Bg.css';
 import { useState } from 'react';
+import Original from './Original';
+import No_bg from './No_bg';
+// import logo from '';
+// import banner from '';
 
 function Bg() {
 
     const { display_no_bg_tab, setDisplay_no_bg_tab } = useState("no");
 
-    function change_tab() {
-        if (display_no_bg_tab === 'yes') {
-            setDisplay_no_bg_tab('no')
+    function change_tab(e) {
+
+        if (e.target.classList.value == 'no_bg') {
+            setDisplay_no_bg_tab('no');
         } else {
             setDisplay_no_bg_tab('yes');
         }
+
     }
 
     return (
@@ -29,19 +35,22 @@ function Bg() {
                 <div className='Left_Div'>
 
                     <div className='Main_div_tabs_Header'>
-                        <span onClick={change_tab} className='No_bg'>הסר רקע</span>
-                        <span onClick={change_tab} className='Original_tab'>מקורי</span>
+                        <span onClick={change_tab} className='No_bg' style={{ borderBottom: display_no_bg_tab == "yes" ? "" : "3px solid #9c27B0" }}>הסר רקע</span>
+                        <span onClick={change_tab} className='Original' style={{ borderBottom: display_no_bg_tab == "yes" ? "3px solid #9c27B0" : "" }}>מקורי</span>
                     </div>
 
                     {display_no_bg_tab === 'yes' ?
-                        <div className='Original'>
-                            Original Tab
-                        </div>
+                        <Original />
                         :
-                        <div className='No_bg_tab'>
-                            No BG Tab
-                        </div>
+                        <No_bg/>
                     }
+
+
+
+                    <div className='Left_footer'>
+                        <button className='Eula_btn'>תקנון החברה</button>
+                        <span className='Eula_text'>ע"י העלאת תמונה אתה מסכים לתנאים ולהגבלות שלנו.</span>
+                    </div>
 
                 </div>
 
@@ -66,6 +75,11 @@ function Bg() {
 
 
                     </div>
+                </div>
+
+                <div className='Footer'>
+                    {/* <img src={logo} className='Logo_img' />
+                    <img src={banner} className='Banner_img' /> */}
                 </div>
 
             </div>
